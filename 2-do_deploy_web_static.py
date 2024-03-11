@@ -5,7 +5,7 @@ an archive to your web servers, using the function do_deploy"""
 from fabric.api import env, put, run, sudo
 import os
 
-env.hosts = ['35.174.200.196']
+env.hosts = ['35.174.200.196', '35.175.130.243']
 env.user = 'ubuntu'
 
 
